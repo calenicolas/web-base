@@ -1,5 +1,5 @@
 import {expect} from "chai";
-import Examples from "./Examples";
+import Examples from "../core/Examples";
 
 const {mock} = global;
 

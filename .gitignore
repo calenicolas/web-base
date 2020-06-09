@@ -1,3 +1,6 @@
 node_modules
 ./web/node_modules
 .idea
+
+# stryker temp files
+.stryker-tmp
