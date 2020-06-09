@@ -1,5 +1,8 @@
 const sinon = require("sinon");
-const {expect} = require("chai");
+const sinonChai = require("sinon-chai");
+const {expect, use} = require("chai");
+
+use(sinonChai);
 
 function mock(...methods) {
     const fake = {};

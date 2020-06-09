@@ -2,6 +2,10 @@
 
 ---- 
 
+Luego de clonar, 
+
+> $> npm install
+
 Comandos:
 
  - _npm run test_: Corre los tests.

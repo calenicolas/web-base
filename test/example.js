@@ -28,8 +28,8 @@ describe("this should be list of examples of how to implement different techniqu
 
             examples.spy(fake);
 
-            expect(fake.someAction.callCount).be.eql(1);
-            expect(fake.someAction.calledWithExactly(6)).be.true;
+            expect(fake.someAction).callCount(1);
+            expect(fake.someAction).calledWithExactly(6);
         });
 
         it("should be an spy assertion inside a promise chain", (done) => {
