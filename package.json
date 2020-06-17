@@ -7,7 +7,7 @@
     "test": "mocha --require @babel/polyfill --require @babel/register --require ./tests_enhacement.js",
     "start": "cd web && npm run start",
     "mutation-tests": "npx stryker run",
-    "postinstall": "cd web && npm install"
+    "postinstall": "./link_core; ./react_install"
   },
   "author": "",
   "license": "ISC",
