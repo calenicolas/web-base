@@ -1,12 +1,10 @@
-<h3>On boarding: Cliente en js<h3/>
-
----- 
+# Proyecto base para armar SPA
 
 Luego de clonar, 
 
 > $> npm install
 
-Comandos:
+## Comandos:
 
  - _npm run test_: Corre los tests.
  - _npm run start_: Levanta el server local.
